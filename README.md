@@ -2,6 +2,7 @@
 
 Este projeto é um sistema de gerenciamento de produtos desenvolvido em Java, simulando um catálogo de produtos de uma loja do tipo Casas Bahia. O sistema permite gerenciar dois tipos de produtos: **Eletrodomésticos** e **Móveis**.
 
+
 ## 📋 Funcionalidades
 
 - ✅ **Adicionar produtos** (Eletrodomésticos ou Móveis)
@@ -11,11 +12,14 @@ Este projeto é um sistema de gerenciamento de produtos desenvolvido em Java, si
 - ✅ **Validações** robustas com tratamento de exceções personalizadas
 - ✅ **Interface de console** interativa
 
+
 ## 🏗️ Estrutura do Projeto
+
 
 ### 📦 Pacotes
 - **`casasBahia`**: Classes principais do sistema
 - **`excecoes`**: Classes de exceções personalizadas
+
 
 ### 🧩 Principais Classes
 
@@ -35,32 +39,6 @@ Este projeto é um sistema de gerenciamento de produtos desenvolvido em Java, si
 - **`Sistema`**: Classe principal que gerencia a lógica do programa
 - **`Main`**: Classe de entrada do programa com menu interativo
 
-## 🎮 Como Executar
-
-### Pré-requisitos
-- Java JDK 8 ou superior
-- IDE Java ou terminal com compilador Java
-
-### Compilação e Execução
-1. Clone o repositório:
-```bash
-git clone [url-do-repositorio]
-```
-
-2. Navegue até o diretório do projeto:
-```bash
-cd [nome-do-diretorio]
-```
-
-3. Compile as classes:
-```bash
-javac -d . *.java
-```
-
-4. Execute o programa:
-```bash
-java casasBahia.Main
-```
 
 ## 📝 Como Usar
 
@@ -77,6 +55,7 @@ java casasBahia.Main
 
 5. **Sair**: Opção 5 finaliza o sistema
 
+
 ## ⚠️ Validações Implementadas
 
 - Código do produto deve ter exatamente 3 caracteres
@@ -84,12 +63,14 @@ java casasBahia.Main
 - Opções do menu devem ser válidas
 - Tratamento de entradas inválidas do usuário
 
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Java** - Linguagem de programação
 - **POO** - Programação Orientada a Objetos
 - **Tratamento de Exceções** - Exceções personalizadas
 - **Collections** - ArrayList para armazenamento de produtos
+
 
 ## 📊 Estrutura de Dados
 
